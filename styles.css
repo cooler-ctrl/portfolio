@@ -20,7 +20,7 @@ header{
     overflow: hidden;
     text-align: center;
 }
-header h1{
+.header-h1{
     color: white;
     font-size: 150px;
     font-weight: 900;
@@ -28,28 +28,38 @@ header h1{
     transition: 3s;
     display: inline-block;
 }
-header h2{
+.header-h2{
     color: rgba(255, 255, 255, 0.719);
     display: inline-block;
     transition: 3s;
     margin: 20px;
 }
-header h3{
+.header-h3{
     color: rgba(255, 255, 255, 0.411);
     display: inline-block;
     transition: 3s;
     margin: 20px;
 }
-header h1:hover{
+.header-h1:hover{
     font-size: 200px;
 }
-header h2:hover{
+.header-h2:hover{
     font-size: 100px;
     color:white;
 }
-header h3:hover{
+.header-h3:hover{
     font-size: 100px;
     color:white;
+}
+ .header-a{
+    text-decoration: none;
+    color: white;
+    writing-mode: vertical-lr;
+    font-size: 17px;
+}
+.social{
+    padding-left:2rem;
+    display: table-cell;
 }
 .h1-1{
     color: rgba(255, 255, 255, 0.185);
